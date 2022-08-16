@@ -1,0 +1,250 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: josefin sans;
+}
+header{
+    height:700px;
+    padding: 30px;
+    background-image: url(image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logo-nav{
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    /*   */
+}
+.logo{
+    height:100px;
+    width:300px;
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: center;
+}
+.nav{
+    height:120px;
+    width:500px;
+    margin-top: 30px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    position: relative;
+}
+
+.nav a:hover::after{
+    position: absolute;
+    left:25%;
+    right:25%;
+    content:"";
+    bottom:0;
+    border: 1px solid white;
+
+}
+.immersive{
+    margin-left: 170px;
+    margin-top: 100px;
+    width: 610px;
+    font-size: 30px;  
+}
+header h1{
+    border:1px solid white;
+    width:600px;
+    height:fit-content;
+   padding: 30px;
+   text-transform: uppercase;
+    color:hsl(0, 0%, 100%);
+    font-family: josefin sans;
+    font-weight: 300;
+
+} 
+section{
+    height:1700px;
+    background-color: hsl(0, 0%, 100%);
+}
+.overlap{
+    position: relative;
+    padding-bottom: 100px;
+    font-family: josefin sans;
+}
+.text-p{
+    height:300px;
+    width:550px;
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    top:320px;
+    left: 750px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 55%);
+    
+}
+.image-G{
+    margin-left: 200px;
+    padding-top: 120px;
+}
+ .text-p h1{
+    text-transform: uppercase;
+    padding-top: 10px;
+    width:300px;
+    font-size: 35px;
+    font-weight: 300;
+ }
+ .text-p p{
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 25px;
+
+
+ }
+ .create{
+    /* border:1px solid blue; */
+    height:100px;
+    display: flex; 
+    justify-content: space-between;
+    font-family: josefin sans;
+ }
+ .create h1{
+    /* border:1px solid green; */
+    /* width:300px; */
+    margin: 0%;
+    font-weight: 300;
+    text-transform: uppercase;
+ }
+ .create button{
+    /* width:150px; */
+    padding:10px 25px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.img-A{
+ /* border:1px solid blue; */
+ display: flex;   
+ padding-left: 150px;
+ padding-right: 70px;
+ margin-bottom: 25px;
+}
+.img-B{
+ /* border:1px solid blue;   */
+ display: flex; 
+ flex-direction: row; 
+ padding-left: 150px;
+ padding-right: 70px;
+ 
+}
+.img-box{
+    height: 400px;
+    width: 23.5%;
+    display: flex;
+    /* justify-content:center; */
+    align-items: flex-end;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    cursor:pointer;  
+}
+.deep{
+     background: url('./image-deep-earth.jpg');
+}
+.arcade{
+    background: url('./image-night-arcade.jpg');
+}
+.soccer{
+    background-image:url(image-soccer-team.jpg);
+}
+.grid{
+    background-image: url(image-grid.jpg);
+}
+.above{
+    background-image: url(image-from-above.jpg);
+}
+.pocket{
+    background-image: url(image-pocket-borealis.jpg);
+}
+.curiosity{
+    background: url('./image-curiosity.jpg');
+}
+.fisheye{
+    background: url('./image-fisheye.jpg');
+}
+aside{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background: hsl(0, 0%, 0%);
+    height: 150px;
+    padding-top: 40px;
+}
+.side{
+   
+    margin: 0;
+    margin-left: 150px;
+    
+}
+.studio{
+    color:hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+.footer-nav ul{
+    display: flex;
+    padding: 0%;
+    
+}
+.footer-nav li{
+    padding: 10px;
+    list-style: none;
+    padding-left: 0%;
+    padding-top: 20px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+    position: relative;
+ 
+}
+.footer-nav a:hover::after{
+    position: absolute;
+    left:25%;
+    right:25%;
+    content:"";
+    bottom:0;
+    border: 1px solid white;
+}
+.footer-logo{
+    margin: 0%;
+    margin-right: 90px;
+
+}
+.footer-icon{
+    margin-left:120px
+}
+.footer-logo a{
+
+justify-content: right;
+flex-direction: row;
+}
+.copy{
+    color:hsl(0, 0%, 55%);
+ margin-top:20px; 
+}
+
+
+
+
+
